@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Chat/ChatUI.uss?fileID=7433441132597879392&amp;guid=c50c50e0f2fd4f81a6fc04a99c5d6dd5&amp;type=3#ChatUI"/>
+    <ui:VisualElement name="ChatContainer" style="flex-grow: 1; width: 100%; height: 100%;">
+        <ui:Label text="Chat WebSocket" name="Header" style="flex-grow: 0; background-color: rgb(255, 255, 255); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; color: rgb(37, 37, 38); -unity-text-align: upper-center; font-size: 30px;"/>
+        <ui:ListView name="ChatMessages" style="flex-grow: 2; background-color: rgb(241, 242, 244);"/>
+        <ui:VisualElement name="NickContainer" style="flex-grow: 0; flex-direction: row; background-color: rgb(255, 255, 255);">
+            <ui:TextField name="Nickname" label="" placeholder-text="Enter a nickname..." style="flex-grow: 1;" />
+            <ui:Button text="Add nickname" name="AddNickname"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="InputContainer" style="flex-grow: 0; background-color: rgb(255, 255, 255); flex-direction: row;">
+            <ui:TextField label="" placeholder-text="Enter a message..." name="ChatInput" style="flex-grow: 1;" />
+            <ui:Button text="Send" name="SendMessage"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

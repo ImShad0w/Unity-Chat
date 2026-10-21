@@ -1,0 +1,8 @@
+/home/shxd0w/Projects/MiniPeliculesApp/Temp/bin/Debug/Unity.2D.Welcome.deps.json
+/home/shxd0w/Projects/MiniPeliculesApp/Temp/bin/Debug/Unity.2D.Welcome.dll
+/home/shxd0w/Projects/MiniPeliculesApp/Temp/bin/Debug/Unity.2D.Welcome.pdb
+/home/shxd0w/Projects/MiniPeliculesApp/Temp/obj/Unity.2D.Welcome/Unity.2D.Welcome.csproj.AssemblyReference.cache
+/home/shxd0w/Projects/MiniPeliculesApp/Temp/obj/Unity.2D.Welcome/Unity.2D.Welcome.GeneratedMSBuildEditorConfig.editorconfig
+/home/shxd0w/Projects/MiniPeliculesApp/Temp/obj/Unity.2D.Welcome/Unity.2D.Welcome.csproj.CoreCompileInputs.cache
+/home/shxd0w/Projects/MiniPeliculesApp/Temp/obj/Unity.2D.Welcome/Unity.2D.Welcome.dll
+/home/shxd0w/Projects/MiniPeliculesApp/Temp/obj/Unity.2D.Welcome/Unity.2D.Welcome.pdb

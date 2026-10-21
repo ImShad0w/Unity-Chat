@@ -1,0 +1,44 @@
+VisualElement {
+}
+
+#leftPanel {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-self: auto;
+    width: 50%;
+}
+
+#addPeliculaButton {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#peliculesContainer {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(41, 35, 35);
+    border-right-color: rgb(41, 35, 35);
+    border-top-color: rgb(41, 35, 35);
+    border-bottom-color: rgb(41, 35, 35);
+    flex-grow: 1;
+}
+
+#rightPanel {
+    justify-content: flex-start;
+    -unity-text-align: upper-center;
+    font-size: 20px;
+}
+

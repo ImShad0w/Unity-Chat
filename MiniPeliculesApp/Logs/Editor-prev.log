@@ -1,0 +1,1078 @@
+[UnityConnectServicesConfig] Local config successfully read: "/usr/share/unity3d/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+Unity Editor version:    6000.6.4f1 (12bfff696524)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              NO
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Fri, 16 Oct 2026 00:28:58 +0000
+Kernel version:          7.2.11-arch1-1
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        15311 MB
+Date:                    2026-10-19T09:51:49Z
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 61777)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 61780)
+VBCSCompiler prewarm took 21.97 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shxd0w" at "2026-10-19T09:51:49.288301Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-shxd0w"
+[Licensing::IpcConnector] LicenseClient-shxd0w channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-shxd0w-6000.6.4 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 61794)
+Selected window backend: (null) 
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/unityhub-unity-editor-6000.6.4f1
+-projectpath
+/home/shxd0w/Projects/MiniPeliculesApp
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-shxd0w
+-hubSessionId
+d6cef847-2283-4d83-b1de-7abb3bd7136b
+-accessToken
+Nd83RoQnNIjUs9O1-ryv_DEbKvUW2RVbTtkjCSUrLbo006f
+Successfully changed project path to: /home/shxd0w/Projects/MiniPeliculesApp
+/home/shxd0w/Projects/MiniPeliculesApp
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [139744263473920]  Target information:
+
+Player connection [139744263473920]  * "[IP] 192.168.16.244 [Port] 55504 [Flags] 2 [Guid] 1064145774 [EditorId] 1064145774 [Version] 1048832 [Id] LinuxEditor(16,192.168.16.244) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139744263473920]  * "[IP] 192.168.122.1 [Port] 55504 [Flags] 2 [Guid] 1064145774 [EditorId] 1064145774 [Version] 1048832 [Id] LinuxEditor(16,192.168.16.244) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139744263473920]  * "[IP] 172.17.0.1 [Port] 55504 [Flags] 2 [Guid] 1064145774 [EditorId] 1064145774 [Version] 1048832 [Id] LinuxEditor(16,192.168.16.244) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139744263473920]  * "[IP] 172.18.0.1 [Port] 55504 [Flags] 2 [Guid] 1064145774 [EditorId] 1064145774 [Version] 1048832 [Id] LinuxEditor(16,192.168.16.244) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139744263473920] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139744263473920] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shxd0w-6000.6.4" at "2026-10-19T09:51:49.86187Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e5018740ef6e407b877d03016362d732
+  Correlation Id:          a4108511a88b1cbb208be00b67279aa8
+  External correlation Id: 4630390139507241712
+  Machine Id:              vToZtydmcU2TVt/NU8RlZILrhbI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-shxd0w-6000.6.4" (connect: 0.57s, validation: 0.13s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shxd0w-6000.6.4-notifications" at "2026-10-19T09:51:49.989945Z"
+[Licensing::Module] Connected to LicensingClient (PId: 61794, launch time: 0.00, total connection time: 0.70s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token Nd83RoQnNI...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872888500344-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.80s
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: a498ee881037634f803f28661127f20f
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052624
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+[Package Manager] Connected to IPC stream "Upm-61758" after 0.4 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - /home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/Unity.DataStore 
+Unity Data Store artifact dir = Library/DataStore, working dir = /home/shxd0w/Projects/MiniPeliculesAppUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.4f1 (12bfff696524)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/shxd0w/Projects/MiniPeliculesApp/Assets
+kGfxThreadingModeSplitJobs is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 7.2.11-arch1-1)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 26.2.5-arch1.1
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
+exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
+_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_timeline_semaphore GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1449921728
+Initialize mono
+Mono path[0] = '/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Managed'
+Mono path[1] = '/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56758
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002410 seconds.
+Native extension for LinuxStandalone target not found
+Package Manager log level set to [2]
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.310 seconds
+Domain Reload Profiling: 4115ms
+	BeginReloadAssembly (132ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (545ms)
+		LoadAssemblies (125ms)
+		TypeCache.Refresh (365ms)
+			TypeCache.ScanAssembly (341ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (3313ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (2632ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 74 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@16.0.1 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.2d.animation@899988b542b9)
+    com.unity.2d.aseprite@6.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.2d.aseprite@ab909e3e9b5f)
+    com.unity.2d.psdimporter@15.0.1 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.2d.psdimporter@e02a9153d8d9)
+    com.unity.2d.spriteshape@16.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.2d.spriteshape@42798c9d35d3)
+    com.unity.2d.tilemap.extras@9.0.1 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.2d.tilemap.extras@9446f3c60919)
+    com.unity.2d.tooling@4.0.1 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.2d.tooling@4e93af4036ee)
+    com.unity.collab-proxy@2.13.6 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.learn.iet-framework@6.0.7 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.learn.iet-framework@96330db47073)
+    com.unity.pipeline@0.8.0-exp.1 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.pipeline@62c08c808737)
+    com.unity.visualscripting@1.9.12 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.settings-manager@2.1.1 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.settings-manager@0b8638c5ce86)
+    com.unity.2d.common@15.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.2d.common@b779c433ed47)
+    com.unity.searcher@4.9.5 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.2d.sprite@7af11878b137)
+    com.unity.2d.tilemap@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.2d.tilemap@4c6661b4631a)
+    com.unity.render-pipelines.universal@17.6.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.render-pipelines.universal@c6775e9427cb)
+    com.unity.test-framework@1.8.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.test-framework@33f8a1e9aefd)
+    com.unity.timeline@6.6.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.timeline@9cd41035b3ab)
+    com.unity.ugui@2.6.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.ugui@88d0d51315d3)
+    com.unity.modules.accessibility@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.ext.nunit@508b95ff9afe)
+    com.unity.render-pipelines.core@17.6.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.render-pipelines.core@514690c4e8b0)
+    com.unity.shadergraph@17.6.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.shadergraph@03900dfca927)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.render-pipelines.universal-config@b1357eef5cd3)
+    com.unity.editorcoroutines@6.6.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.editorcoroutines@af8abaa9a9d2)
+    com.unity.mathematics@1.4.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.mathematics@9c2fa23d2d82)
+    com.unity.collections@6.6.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.collections@431b1d558060)
+    com.unity.graph-authoring@1.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.graph-authoring@f8926ccf2c8f)
+    com.unity.burst@2.0.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.burst@c3ed5b778d56)
+    com.unity.test-framework.performance@6.6.0 (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.unity.test-framework.performance@530c2523cea5)
+  Git packages:
+    com.endel.nativewebsocket@https://github.com/endel/NativeWebSocket.git#upm (location: /home/shxd0w/Projects/MiniPeliculesApp/Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: /home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/shxd0w/Projects/MiniPeliculesApp
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll" in favor of "/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s383ms
+[ 918/1228  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.33 seconds), 1 items updated, 1228 evaluated
+Total cache size 146983988
+AssetDatabase: script compilation time: 1.132025s
+Total cache size after purge 146983988, took 00:00:00.0765449
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for LinuxStandalone target not found
+Start HTTP server: port:7800
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.396 seconds
+Domain Reload Profiling: 2895ms
+	BeginReloadAssembly (326ms)
+		DisableScriptedObjects (30ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (1019ms)
+		LoadAssemblies (493ms)
+		TypeCache.Refresh (350ms)
+			TypeCache.ScanAssembly (325ms)
+		AnalyzeDomain (106ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1397ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (591ms)
+			ProcessInitializeOnLoadMethodAttributes (323ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Starting new worker id: 0 with log in /home/shxd0w/Projects/MiniPeliculesApp/Logs/AssetImportWorkerHW0.log
+[UnityConnectServicesConfig] Local config successfully read: "/usr/share/unity3d/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+
+Asset Pipeline Refresh (id=5ecdd0bf6ff50fe2393f4fa9c454b5ea): Total: 5.783 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2873 ms
+		Asset DB Callback time: managed=70 ms, native=17 ms
+		Scripting: domain reloads=1, domain reload time=1581 ms, compile time=1134 ms, other=104 ms
+		Project Asset Count: scripts=1738, non-scripts=3310
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 18.346ms
+	ApplyChangesToAssetFolders: 0.716ms
+	Scan: 766.716ms
+	Collect global state as custom dependencies: 21.265ms
+	CategorizeScriptCompilationAssets: 114.228ms
+	ProcessAssetsWithTransientArtifactChanges: 142.366ms
+	CategorizeAssets: 103.709ms
+	CompileScripts: 1134.309ms
+	ImportOutOfDateAssets: 1506.364ms (1405.885ms without children)
+		ReloadNativeAssets: 0.063ms
+		UnloadImportedAssets: 1.242ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.500ms
+		ImportSchedulerStart: 97.673ms
+	PostProcessAllAssets: 71.007ms
+		MonoPostProcessAllAssets: 70.826ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 23.248ms
+			SyncVS.PostprocessSyncProject 10.013ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.635ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.357ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.844ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.893ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.744ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.346ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.284ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.235ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.209ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.191ms
+	UnloadStreamsBegin: 5.190ms
+	PersistCurrentRevisions: 0.148ms
+	GenerateScriptTypeHashes: 3.248ms
+	GenerateScriptTypeSerializationHashes: 5.489ms
+	Untracked: 1896.474ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 6.279ms
+Initializing Unity extensions:
+UpdateMenuTitleForLanguage: 10
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MiniPeliculesApp
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/WebSocket.unity'
+	Deserialize:            4.709 ms
+	Integration:            16.869 ms
+	Integration of assets:  0.013 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   21.612 ms
+Unloading 7748 unused Assets / (9.5 MB). Loaded Objects now: 8774.
+Memory consumption went from 246.2 MB to 236.7 MB.
+Total: 19.856379 ms (FindLiveObjects: 0.943464 ms CreateObjectMapping: 0.523263 ms MarkObjects: 11.879607 ms  DeleteObjects: 5.943971 ms)
+
+[LAYOUT] About to load UserSettings/Layouts/default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+Unhandled description string [
+Unhandled description string ]
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+[LAYOUT] About to save layout /home/shxd0w/Projects/MiniPeliculesApp/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /home/shxd0w/.config/unity3d/Preferences/Editor-5.x/Layouts/current/default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+Unhandled description string [
+Unhandled description string ]
+Disable old input system
+[Project] Loading completed in 13.982 seconds
+	Project init time: 				12.178 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.387 seconds
+		Asset Database init time: 		0.282 seconds
+		Global illumination init time: 	0.007 seconds
+		Assemblies load time: 			4.168 seconds
+		Unity extensions init time: 	0.076 seconds
+		Asset Database refresh time: 	5.791 seconds
+	Scene opening time: 			1.261 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792403523237,"processId":61758,"projectLoad":13.981606854999999,"projectInit":12.177772954,"templateInit":0.0,"packageManagerInit":0.387107558,"assetDatabaseInit":0.28234246,"globalIlluminationInit":0.006540252,"assembliesLoad":4.167831474,"unityExtensionsInit":0.075928061,"assetDatabaseRefresh":5.790510408,"sceneOpening":1.260800884}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792403523237,"processId":61758,"editorVersion":"6000.6.4f1 (12bfff696524)","branch":"6000.6/staging","buildType":"Release","platform":"Linux"}
+Asset Pipeline Refresh (id=d6ea3330eb297e14ab4661e6159b4b9c): Total: 0.284 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=6034c8aa10f0a78569b3a5e2b8ca660b): Total: 0.111 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Reloading assemblies due to reload request.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for LinuxStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Unhandled description string [
+Unhandled description string ]
+Start HTTP server: port:7800
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+Unhandled description string [
+Unhandled description string ]
+- Finished resetting the current domain, in  2.238 seconds
+Domain Reload Profiling: 3216ms
+	BeginReloadAssembly (577ms)
+		DisableScriptedObjects (124ms)
+		CreateAndSetChildDomain (261ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (141ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (18ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2239ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (314ms)
+			ProcessInitializeOnLoadAttributes (541ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (689ms)
+No restricted APIs configured; Validation skipped.
+Checking 24 assemblies for restricted APIs found 0 usage(s) in 4 ms
+
+Asset Pipeline Refresh (id=d2c81854147dd0471a8e53b5bf2ca2fd): Total: 5.112 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2669 ms
+		Asset DB Callback time: managed=1124 ms, native=289 ms
+		Scripting: domain reloads=1, domain reload time=1027 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1738, non-scripts=3310
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.582ms
+	ApplyChangesToAssetFolders: 0.375ms
+	Collect global state as custom dependencies: 3.001ms
+	ProcessAssetsWithTransientArtifactChanges: 274.057ms
+	CategorizeAssets: 81.889ms
+	CompileScripts: 2.397ms
+	ImportOutOfDateAssets: 2250.880ms (2246.532ms without children)
+		CollectScriptTypesHashes: 1.708ms
+		ReloadNativeAssets: 1.370ms
+		UnloadImportedAssets: 1.641ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.978ms
+		ImportSchedulerStart: 0.333ms
+	PostProcessAllAssets: 1406.263ms
+		AssemblyValidation.PostprocessAllAssets 60.934ms
+		PostprocessAssetsUpdateCachedIcon 27.503ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 25.359ms
+		PostProcessCallbackCreateDeferredMaterials 24.114ms
+		RaytracingShaderImportPostprocess 13.597ms
+		ComputeShaderImportPostprocess 13.564ms
+		ShaderAssetModifiedCallback 12.602ms
+		SpeedTreeImporter.PostprocessAllAssets 10.924ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 4.315ms
+		BlockShaderImporter.PostprocessAllAssets 4.283ms
+		XRBuildSystem.XRAssetImported 1.244ms
+		MonoPostProcessAllAssets: 1120.863ms
+			SyncVS.PostprocessSyncProject 350.282ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 250.727ms
+			AssetPostprocessor.OnPostprocessAllAssets 88.238ms
+			PostProcessor.OnPostprocessAllAssets 61.526ms
+			MaterialPostprocessor.OnPostprocessAllAssets 45.262ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 44.828ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 44.457ms
+			AssetChangedListener.OnPostprocessAllAssets 43.200ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 33.712ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 30.129ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 18.782ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 8.598ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 7.147ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 7.015ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.406ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.676ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.590ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.947ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.821ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.777ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.728ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.677ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.667ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.621ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.585ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.560ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.483ms
+			AssetProcessor.OnPostprocessAllAssets 0.410ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.385ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.311ms
+			AssetEvents.OnPostprocessAllAssets 0.267ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.231ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.217ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.203ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.191ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.174ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.156ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.153ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.149ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.121ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.097ms
+	PostAssetChangesProfiler: 7.019ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.339ms
+	UnloadStreamsBegin: 1.553ms
+	PersistCurrentRevisions: 0.139ms
+	GenerateScriptTypeHashes: 4.038ms
+	GenerateScriptTypeSerializationHashes: 6.924ms
+	Untracked: 1081.125ms
+
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+Created GICache directory at /home/shxd0w/.cache/unity3d/GiCache. Took: 0.003s, timestamps: [14.379 - 14.382]
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "Nd83RoQn"... (expires: 2026-10-19T10:04:50Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+SpriteAtlasPacking completed in 0.007737 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.720 ms
+	Integration:            742.013 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.028 ms
+	Total Operation Time:   743.764 ms
+WebSocket connectat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WebSocketClient/<>c:<ConnectWebSocket>b__5_0 () (at Assets/Scripts/WebSocketClient.cs:32)
+NativeWebSocket.WebSocket/<Connect>d__27:MoveNext () (at ./Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534/WebSocket/WebSocket.cs:472)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:156)
+UnityEngine.UnitySynchronizationContext:Exec () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:84)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:110)
+
+(Filename: Assets/Scripts/WebSocketClient.cs Line: 32)
+
+Missatge rebut: Request served by 4d896d95b55478
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WebSocketClient/<>c:<ConnectWebSocket>b__5_3 (byte[]) (at Assets/Scripts/WebSocketClient.cs:49)
+NativeWebSocket.WebSocket:DispatchMessageQueue () (at ./Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534/WebSocket/WebSocket.cs:637)
+WebSocketClient:Update () (at Assets/Scripts/WebSocketClient.cs:72)
+
+(Filename: Assets/Scripts/WebSocketClient.cs Line: 49)
+
+Unhandled description string [
+Unhandled description string ]
+Missatge enviat: Hola des de Unity!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WebSocketClient/<SendWebSocketMessage>d__6:MoveNext () (at Assets/Scripts/WebSocketClient.cs:59)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start<WebSocketClient/<SendWebSocketMessage>d__6> (WebSocketClient/<SendWebSocketMessage>d__6&)
+WebSocketClient:SendWebSocketMessage (string)
+WebSocketClient:SendSerializedMessage () (at Assets/Scripts/WebSocketClient.cs:91)
+WebSocketClient:ContextSendTestMessage () (at Assets/Scripts/WebSocketClient.cs:96)
+
+(Filename: Assets/Scripts/WebSocketClient.cs Line: 59)
+
+Missatge rebut: Hola des de Unity!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WebSocketClient/<>c:<ConnectWebSocket>b__5_3 (byte[]) (at Assets/Scripts/WebSocketClient.cs:49)
+NativeWebSocket.WebSocket:DispatchMessageQueue () (at ./Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534/WebSocket/WebSocket.cs:637)
+WebSocketClient:Update () (at Assets/Scripts/WebSocketClient.cs:72)
+
+(Filename: Assets/Scripts/WebSocketClient.cs Line: 49)
+
+TrimDiskCacheJob: Current cache size 0mb
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Importing 'GUID: c9c935165bcccd494b9368db99a2f39c - Path: Assets/Scripts/WebSocket' with importer (DefaultImporter)
+Imported 'GUID: c9c935165bcccd494b9368db99a2f39c' -> (Import Result ID: '2e6a4b2e695bf7571fc87859c322b3cd') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=8c6149da066829c4f429431b3de4f04d DependenciesID=6fff919d8801bf281640a816459be2fc StaticDependenciesID=83abf612da19635d1ca046846eac4f13 
+Importing 'GUID: d9bcc01669a4d16dd85dea3c422ab2a3 - Path: Assets/UI/Chat' with importer (DefaultImporter)
+Imported 'GUID: d9bcc01669a4d16dd85dea3c422ab2a3' -> (Import Result ID: 'b0b63a18b99ce0de3d1eff24ba1028d8') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4e5a431cd124ce3064b3447f9a97a926 DependenciesID=1757b3ffb0acdb2784064781dd5a926c StaticDependenciesID=012e1ad522e204711db393686926803d 
+[Licensing::Client] Successfully resolved entitlement details
+
+Asset Pipeline Refresh (id=5366e1b8c1c08f884ae822f14249c8d9): Total: 0.503 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=288 ms
+		Asset DB Callback time: managed=207 ms, native=3 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1740, non-scripts=3310
+		Asset File Changes: new=3, changed=3, moved=0, deleted=1
+		Scan Filter Count: 1
+	ApplyChangesToAssetFolders: 0.302ms
+	Scan: 170.323ms
+	Collect global state as custom dependencies: 0.268ms
+	OnSourceAssetsModified: 0.813ms
+	ProcessAssetsWithTransientArtifactChanges: 0.487ms
+	CategorizeAssets: 26.421ms
+	CompileScripts: 0.597ms
+	ImportOutOfDateAssets: 11.990ms (0.298ms without children)
+		ImportManagerImport: 10.314ms (0.853ms without children)
+		UnloadImportedAssets: 0.100ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.539ms
+		ImportSchedulerStart: 0.697ms
+	PostProcessAllAssets: 204.516ms
+		XRBuildSystem.XRAssetImported 1.246ms
+		PostProcessCallbackCreateDeferredMaterials 0.092ms
+		MonoPostProcessAllAssets: 202.863ms
+			SyncVS.PostprocessSyncProject 197.382ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.578ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.090ms
+			AssetChangedListener.OnPostprocessAllAssets 0.463ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.458ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.086ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.074ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.051ms
+	PostAssetChangesProfiler: 5.108ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.320ms
+	UnloadStreamsBegin: 3.605ms
+	PersistCurrentRevisions: 0.229ms
+	Untracked: 76.918ms
+
+Starting: /home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/shxd0w/Projects/MiniPeliculesApp
+Starting: /home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/DotNetSdk/dotnet "/home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe" "Library/Bee/2400b0aE.dag.json" "Library/Bee/2400b0aE-inputdata.json" "Library/Bee/buildprogram0.traceevents"
+WorkingDir: /home/shxd0w/Projects/MiniPeliculesApp
+ExitCode: 4 Duration: 0s483ms
+[ 917/1228  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/2400b0aE-inputdata.json
+*** Tundra requires additional run (0.33 seconds), 2 items updated, 1223 evaluated
+Starting new worker id: 1 with log in /home/shxd0w/Projects/MiniPeliculesApp/Logs/AssetImportWorkerHW1.log
+[UnityConnectServicesConfig] Local config successfully read: "/usr/share/unity3d/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+[Worker0] Imported GUID: c9c935165bcccd494b9368db99a2f39c - Path: Assets/Scripts/WebSocket - Importer: PreviewImporter -> (ImportResultId: '5d05d5f2c4139333080048f4daacec01') in 0.02682717 seconds
+ExitCode: 0 Duration: 2s154ms
+Starting: /home/shxd0w/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --dagfilejson="Library/Bee/2400b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: /home/shxd0w/Projects/MiniPeliculesApp
+ExitCode: 0 Duration: 1s535ms
+Finished compiling graph: 1231 nodes, 27612 flattened edges (23168 ToBuild, 214 ToUse), maximum node priority 1445
+[ 606/1228  0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.rsp
+[ 917/1228  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1224/1228  0s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1225/1228  0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll, with 138 defines and 386 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[1226/1228  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1227/1228  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (1.47 seconds), 6 items updated, 1228 evaluated
+[Worker0] Imported GUID: e58f57431032eb64bbbfb7acf8b602af - Path: Assets/Scripts/WebSocket/WebSocketClient.cs - Importer: PreviewImporter -> (ImportResultId: 'd962d7d05f22d8d441b5e506e0eb959d') in 0.025677899 seconds
+Reloading assemblies after finishing script compilation.
+Total cache size 146983988
+Total cache size after purge 146983988, took 00:00:00.0943866
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Worker ready: AssetImportWorkerHW1 1
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Unhandled description string [
+Unhandled description string ]
+Start HTTP server: port:7800
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+Unhandled description string [
+Unhandled description string ]
+- Finished resetting the current domain, in  2.942 seconds
+Domain Reload Profiling: 4500ms
+	BeginReloadAssembly (772ms)
+		DisableScriptedObjects (100ms)
+		CreateAndSetChildDomain (361ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (650ms)
+		LoadAssemblies (195ms)
+		TypeCache.Refresh (17ms)
+		AnalyzeDomain (338ms)
+			BuildScriptInfoCaches (322ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2943ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (327ms)
+			ProcessInitializeOnLoadAttributes (568ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (734ms)
+
+Asset Pipeline Refresh (id=85a3342364660c4debea48ccca76a6b1): Total: 4.896 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3122 ms
+		Asset DB Callback time: managed=77 ms, native=51 ms
+		Scripting: domain reloads=1, domain reload time=1632 ms, compile time=11 ms, other=0 ms
+		Project Asset Count: scripts=1740, non-scripts=3310
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.873ms
+	ApplyChangesToAssetFolders: 0.661ms
+	Collect global state as custom dependencies: 2.856ms
+	ProcessAssetsWithTransientArtifactChanges: 6.881ms
+	CategorizeAssets: 84.139ms
+	CompileScripts: 10.907ms
+	ImportOutOfDateAssets: 2952.808ms (2949.731ms without children)
+		CollectScriptTypesHashes: 1.684ms
+		ReloadNativeAssets: 1.168ms
+		UnloadImportedAssets: 0.121ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.811ms
+		ImportSchedulerStart: 0.937ms
+	PostProcessAllAssets: 79.470ms
+		XRBuildSystem.XRAssetImported 1.308ms
+		MonoPostProcessAllAssets: 77.708ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 18.211ms
+			SyncVS.PostprocessSyncProject 8.884ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 8.336ms
+			AssetChangedListener.OnPostprocessAllAssets 4.275ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.447ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.289ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.145ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.865ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.702ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.306ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.719ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.666ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.632ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.559ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.553ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.516ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.505ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.353ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.330ms
+			PostProcessor.OnPostprocessAllAssets 0.327ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.317ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.311ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.302ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.274ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.262ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.262ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.219ms
+			AssetEvents.OnPostprocessAllAssets 0.213ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.191ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.185ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.147ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.146ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.138ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.137ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.137ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.121ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.120ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.114ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.112ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.076ms
+			AssetProcessor.OnPostprocessAllAssets 0.051ms
+	PostAssetChangesProfiler: 49.700ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.804ms
+	UnloadStreamsBegin: 5.259ms
+	PersistCurrentRevisions: 0.140ms
+	GenerateScriptTypeHashes: 3.270ms
+	GenerateScriptTypeSerializationHashes: 6.164ms
+	Untracked: 1697.787ms
+
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+No es pot enviar el missatge: connexió no oberta.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+WebSocketClient/<SendWebSocketMessage>d__6:MoveNext () (at Assets/Scripts/WebSocket/WebSocketClient.cs:63)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start<WebSocketClient/<SendWebSocketMessage>d__6> (WebSocketClient/<SendWebSocketMessage>d__6&)
+WebSocketClient:SendWebSocketMessage (string)
+WebSocketClient:SendSerializedMessage () (at Assets/Scripts/WebSocket/WebSocketClient.cs:91)
+WebSocketClient:ContextSendTestMessage () (at Assets/Scripts/WebSocket/WebSocketClient.cs:96)
+
+(Filename: Assets/Scripts/WebSocket/WebSocketClient.cs Line: 63)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.198 ms
+	Integration:            24.190 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.040 ms
+	Total Operation Time:   29.437 ms
+Unloading 7084 unused Assets / (21.4 MB). Loaded Objects now: 9738.
+Memory consumption went from 331.4 MB to 310.0 MB.
+Total: 50.639613 ms (FindLiveObjects: 1.326974 ms CreateObjectMapping: 1.985231 ms MarkObjects: 35.181471 ms  DeleteObjects: 11.859690 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+SpriteAtlasPacking completed in 0.007106 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.373 ms
+	Integration:            75.502 ms
+	Integration of assets:  0.013 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   77.912 ms
+WebSocket connectat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WebSocketClient/<>c:<ConnectWebSocket>b__5_0 () (at Assets/Scripts/WebSocket/WebSocketClient.cs:32)
+NativeWebSocket.WebSocket/<Connect>d__27:MoveNext () (at ./Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534/WebSocket/WebSocket.cs:472)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:156)
+UnityEngine.UnitySynchronizationContext:Exec () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:84)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:110)
+
+(Filename: Assets/Scripts/WebSocket/WebSocketClient.cs Line: 32)
+
+Missatge rebut: Request served by 4d896d95b55478
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WebSocketClient/<>c:<ConnectWebSocket>b__5_3 (byte[]) (at Assets/Scripts/WebSocket/WebSocketClient.cs:49)
+NativeWebSocket.WebSocket:DispatchMessageQueue () (at ./Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534/WebSocket/WebSocket.cs:637)
+WebSocketClient:Update () (at Assets/Scripts/WebSocket/WebSocketClient.cs:72)
+
+(Filename: Assets/Scripts/WebSocket/WebSocketClient.cs Line: 49)
+
+Unhandled description string [
+Unhandled description string ]
+Missatge enviat: Hola des de Unity!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WebSocketClient/<SendWebSocketMessage>d__6:MoveNext () (at Assets/Scripts/WebSocket/WebSocketClient.cs:59)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start<WebSocketClient/<SendWebSocketMessage>d__6> (WebSocketClient/<SendWebSocketMessage>d__6&)
+WebSocketClient:SendWebSocketMessage (string)
+WebSocketClient:SendSerializedMessage () (at Assets/Scripts/WebSocket/WebSocketClient.cs:91)
+WebSocketClient:ContextSendTestMessage () (at Assets/Scripts/WebSocket/WebSocketClient.cs:96)
+
+(Filename: Assets/Scripts/WebSocket/WebSocketClient.cs Line: 59)
+
+Missatge rebut: Hola des de Unity!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WebSocketClient/<>c:<ConnectWebSocket>b__5_3 (byte[]) (at Assets/Scripts/WebSocket/WebSocketClient.cs:49)
+NativeWebSocket.WebSocket:DispatchMessageQueue () (at ./Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534/WebSocket/WebSocket.cs:637)
+WebSocketClient:Update () (at Assets/Scripts/WebSocket/WebSocketClient.cs:72)
+
+(Filename: Assets/Scripts/WebSocket/WebSocketClient.cs Line: 49)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.128 ms
+	Integration:            20.639 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   21.785 ms
+Unloading 0 unused Assets / (94.4 KB). Loaded Objects now: 9743.
+Memory consumption went from 308.0 MB to 307.9 MB.
+Total: 38.599865 ms (FindLiveObjects: 0.899701 ms CreateObjectMapping: 0.656233 ms MarkObjects: 36.657806 ms  DeleteObjects: 0.048682 ms)
+
+WebSocket tancat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WebSocketClient/<>c:<ConnectWebSocket>b__5_2 (NativeWebSocket.WebSocketCloseCode) (at Assets/Scripts/WebSocket/WebSocketClient.cs:42)
+NativeWebSocket.WebSocket/<Receive>d__36:MoveNext () (at ./Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534/WebSocket/WebSocket.cs:700)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+WaitForUpdate/MainThreadAwaiter:Complete () (at ./Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534/WebSocket/WebSocket.cs:66)
+WaitForUpdate/<CoroutineWrapper>d__4:MoveNext () (at ./Library/PackageCache/com.endel.nativewebsocket@ea014c9ae534/WebSocket/WebSocket.cs:78)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: Assets/Scripts/WebSocket/WebSocketClient.cs Line: 42)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "t0vWgkMv"... (expires: 2026-10-19T12:04:49Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "RjsdTt6S"... (expires: 2026-10-19T15:58:36Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 55: Send failure: Connection timed out
+Curl error 55: Send failure: Broken pipe
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 7.476ms
+Scanning for USB devices : 7.339ms
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "SuYKnirc"... (expires: 2026-10-19T18:57:27Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 10.822ms
+Found joystick with name: Squalius-cephalus silakka54 System Control and instance ID of 0
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: 'ad6ca2034549a8dd6f88c2e2fb528c97') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=1aedbe56ae62f321fe459982db2fa012 StaticDependenciesID=e9a43e809c5953780a851aff477bfce8 
+Asset Pipeline Refresh (id=817ca9726a03ef513b31cbe87e582dac): Total: 0.037 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b25c9b94fcdac3006b4e5dcc1ff3cc8b - Path: Assets/Scenes/WebSocket.unity' with importer (DefaultImporter)
+Imported 'GUID: b25c9b94fcdac3006b4e5dcc1ff3cc8b' -> (Import Result ID: '3f5178c54287af53102507ac49930ca9') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=28a0644c591719db53f27d6224e75a2b DependenciesID=0a936513a4cf29152602165180f53ca9 StaticDependenciesID=cf17a878f20a3758930bdc2318fc4b97 
+Asset Pipeline Refresh (id=876d6dfcdb39ad2cfa9b8f009cb0aa9d): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 64735; Successful remaps: 30610
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout /home/shxd0w/Projects/MiniPeliculesApp/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /home/shxd0w/.config/unity3d/Preferences/Editor-5.x/Layouts/current/default-6000.dwlt
+Pipeline Server stopped
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-shxd0w-6000.6.4-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-shxd0w-6000.6.4 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 120
+
+SDL leaked 2 allocations
+Turn on UNITY_SDL_ALLOCATION_TRACKING for detailed information.
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792429407882,"processId":61758,"allocatedMemory":13898376,"memoryLabels":[{"Default":255660},{"Permanent":16152},{"Thread":1052256},{"Manager":815761},{"VertexData":8},{"Geometry":408},{"Texture":24},{"Shader":857150},{"Material":132},{"GfxDevice":36464},{"Animation":1016},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":17680},{"Input":60296},{"JobScheduler":256},{"TextLib":25731},{"Mono":80},{"MonoCode":192},{"ScriptingNativeRuntime":155088},{"BaseObject":52840},{"Resource":1268},{"Renderer":2496},{"Transform":4717},{"File":22062},{"WebCam":80},{"Culling":32},{"Terrain":11346},{"Wind":24},{"String":1344067},{"StaticString":3808},{"Utility":2677552},{"PoolAlloc":2200},{"AI":80},{"TypeTree":226822},{"ScriptManager":25312},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7408},{"Director":8280},{"CloudService":8288},{"WebRequest":117231},{"VR":49554},{"SceneManager":640},{"Video":64},{"LazyScriptCache":32},{"NativeArray":1764},{"Camera":729},{"Secure":8137},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57552},{"StaticSafetyDebugInfo":278528},{"Analytics":800},{"Hierarchy":1436},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":257},{"EditorUtility":617682},{"VersionControl":8},{"Undo":963},{"AssetDatabase":4969427},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1836},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":158},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2520},{"Windowing":480},{"TLS":3491},{"Licensing":1128},{"AssetReference":32},{"IPCStream":32}]}
